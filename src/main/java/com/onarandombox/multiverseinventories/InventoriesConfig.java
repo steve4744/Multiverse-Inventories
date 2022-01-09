@@ -126,7 +126,7 @@ public final class InventoriesConfig {
         }
 
         // Load the configuration file into memory
-        config = new CommentedYamlConfiguration(configFile, true);
+        config = new CommentedYamlConfiguration(configFile, false);
         config.load();
 
         // Sets defaults config values
